@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4">
+
+    <Button
+        android:id="@+id/house_lights_on_btn"
+        style="@android:style/Widget.Button"
+        android:layout_width="264dp"
+        android:layout_height="95dp"
+        android:background="#00B6D6"
+        android:onClick="openSkylight"
+        android:text="Open skylight"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/house_lights_off_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <Button
+        android:id="@+id/house_lights_off_btn"
+        style="@android:style/Widget.Button"
+        android:layout_width="264dp"
+        android:layout_height="95dp"
+        android:layout_marginBottom="212dp"
+        android:background="#FF7500"
+        android:onClick="closeSkylight"
+        android:text="Close skylight"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/house_lights_on_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/house_lights_on_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

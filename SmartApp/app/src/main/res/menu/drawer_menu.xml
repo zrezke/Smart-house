@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_speech"
+            android:icon="@drawable/ic_mic"
+            android:title="Speech recognition"></item>
+
+        <item
+            android:id="@+id/nav_door"
+            android:icon="@drawable/ic_door"
+            android:title="Front door"></item>
+
+        <item
+            android:id="@+id/nav_garage"
+            android:icon="@drawable/ic_garage"
+            android:title="Garage door"></item>
+
+        <item
+            android:id="@+id/nav_lights"
+            android:icon="@drawable/ic_light"
+            android:title="Lights"></item>
+        <!--                                    ## Currently not available. Motors haven't arrived.
+        <item
+            android:id="@+id/nav_skylight"
+            android:icon="@drawable/ic_skylight"
+            android:title="Skylight"></item>
+            -->
+        <item
+            android:id="@+id/nav_connect"
+            android:icon="@drawable/ic_bluetooth"
+            android:title="Connect"
+            />
+
+    </group>
+</menu>

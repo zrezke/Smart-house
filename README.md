@@ -9,12 +9,19 @@ This is the repository for my graduation project.
 
   The heart of the house. Contains functions for all the operations.
   garageLightsOn()...turns on garage lights,
+  
   garageLightsOff()...turns off garage lights,
+  
   houseLightsOn()...turns on house lights,
+  
   houseLightsOff()...turns off house lights,
+  
   openGarageServo()...opens garage,
+  
   closeGarageServo()...closes garage,
+  
   openDoorFun()...opens front door,
+  
   closeDoorFun()...closes front door.
   
 // Smart app

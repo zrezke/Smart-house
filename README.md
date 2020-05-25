@@ -8,6 +8,7 @@ This is the repository for my graduation project.
 // ESP32
 
   The heart of the house. Contains functions for all the operations.
+  
   garageLightsOn()...turns on garage lights,
   
   garageLightsOff()...turns off garage lights,

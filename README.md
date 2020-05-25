@@ -4,9 +4,11 @@ This is the repository for my graduation project.
 It contains all software related files for a functioning model of a smart house.
 
 
+
 // MEGA2560
 
    Takes the output of 8solar panels and shows the combined voltage on an LCD display.
+  
   
   
 // ESP32
@@ -28,6 +30,7 @@ It contains all software related files for a functioning model of a smart house.
   openDoorFun()...opens front door,
   
   closeDoorFun()...closes front door.
+  
   
   
 // Smart app
